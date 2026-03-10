@@ -1,0 +1,36 @@
+units           real
+boundary        f f f
+# Water dielectric
+# dielectric      78.36
+atom_style      full
+pair_style      hybrid/overlay lj/cut/coul/cut 10.000000
+bond_style      hybrid harmonic
+angle_style     hybrid harmonic
+dihedral_style  hybrid fourier
+improper_style  hybrid fourier
+special_bonds   lj/coul 0 0 0
+read_data       multiscale.data
+# Restart using checkpoints
+# read_dump       multiscale.lammpstrj 1000000 x y z vx vy vz ix iy iz box yes replace yes format native
+# neighbor settings
+neighbor        2.0 bin
+neigh_modify    delay 0 every 10 check yes
+minimize        1e-4 1e-4 10000 10000
+# Langevin Dynamics, dump (1/gamma) is set to 20fs to simulate water environments
+fix             1 all nve
+fix             2 all langevin 300.0 300.0 20.0 837310
+# Reflect wall on the boundaries
+fix             3 all wall/reflect xlo EDGE xhi EDGE ylo EDGE yhi EDGE zlo EDGE zhi EDGE
+# MetaDynamics configure using the plumed plugin
+# fix             5 all plumed plumedfile plumed.dat outfile plumed.log
+# Shake constraints to H-bonds
+# fix             6 all shake 1e-5 100 0 m 1.008
+timestep        1.0
+thermo          10000
+thermo_style    multi
+# Trajectory
+dump            1 all dcd 10000 multiscale.dcd
+dump_modify     1 unwrap yes
+# Trajectory Checkpoints
+dump            2 all custom 1000000 multiscale.lammpstrj id type x y z vx vy vz ix iy iz
+run             100000000

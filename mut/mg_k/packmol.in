@@ -1,0 +1,28 @@
+tolerance 3.0
+filetype pdb
+output mixture.pdb
+
+structure /opt/xcg-src/release/templates/solvents/p1/p1p.pdb
+  number 26304
+  inside box -87.769 -87.390 -55.873 87.769 87.390 55.873
+  outside sphere  -20.590 -11.600   3.552 28.0
+end structure
+
+structure /opt/xcg-src/release/templates/solvents/p1/p1n.pdb
+  number 26304
+  inside box -87.769 -87.390 -55.873 87.769 87.390 55.873
+  outside sphere  -20.590 -11.600   3.552 28.0
+end structure
+
+structure /home/ywzhang/Documents/co-model/mut/top_ligands/Na+.pdb
+  number 40
+  inside box -87.769 -87.390 -55.873 87.769 87.390 55.873
+  outside sphere  -20.590 -11.600   3.552 28.0
+end structure
+
+structure prot_watsph_relax_openmm/multiscale.pdb
+  number 1
+  fixed 0. 0. 0. 0. 0. 0.
+  center
+end structure
+

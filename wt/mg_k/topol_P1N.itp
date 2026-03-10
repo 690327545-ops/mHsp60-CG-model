@@ -1,0 +1,8 @@
+[ moleculetype ]
+;name      nrexcl    
+P1N        3         
+
+[ atoms ]
+;index     type       resid    resname atom    cgroup     charge          mass     
+1          Cs+_1      1        P1      P1      1          -0.460000008345 20.702800 ; orig=Cs+
+

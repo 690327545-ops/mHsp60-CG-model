@@ -1,0 +1,44 @@
+assembling
+  template_dirs {
+    /opt/xcg-src/release/templates/martini-harmonic
+    /opt/xcg-src/release/templates/united-14sb-lfy
+    /opt/xcg-src/release/templates/ff14sb
+    /home/ywzhang/Documents/co-model/top_ligands
+  }
+  mixdir mix.mix
+  auto_mix 1
+  # 默认1号划分（XCG-Martini-harmonic）
+  id_default 1
+  id_except_region {
+     # 例：这些:1825周围20.0A以内采用2号划分
+     # "1825" 20.0 2
+     "3671" 28.0 2
+     "3671" 20.0 3
+  }
+  # 这些resid只采用4号划分（AA）
+  id_except_molname {
+    ATA 4 
+    ATB 4
+    ATC 4
+    ATD 4
+    ATE 4
+    ATF 4
+    ATG 4
+    KAA 4
+    KBB 4
+    KCC 4
+    KDD 4
+    KEE 4
+    KFF 4
+    KGG 4
+    MGA 4
+    MGB 4
+    MGC 4
+    MGD 4
+    MGE 4
+    MGF 4
+    MGG 4
+    Na+ 4
+    WAT 4
+  }
+/

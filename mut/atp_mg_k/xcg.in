@@ -1,0 +1,10 @@
+assembling
+  mollist {
+    CM1 prot_watsph_relax_openmm/multiscale.gz
+    Na+ /home/ywzhang/Documents/co-model/mut/top_ligands/Na+.gz
+    P1N /opt/xcg-src/release/templates/solvents/p1/p1n.gz
+    P1P /opt/xcg-src/release/templates/solvents/p1/p1p.gz
+  }
+  auto_mix 1
+  mixdir mix.mix
+/

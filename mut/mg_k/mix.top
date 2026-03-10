@@ -1,0 +1,18 @@
+#include "topol_nonbonded.itp"
+
+#include "topol_CM1.itp"
+#include "topol_Na+.itp"
+#include "topol_P1N.itp"
+#include "topol_P1P.itp"
+
+[ system ]
+;name                                                                           
+Default Title                                                                   
+
+[ molecules ]
+;compound  nmols     
+P1P        26304     
+P1N        26304     
+Na+        40        
+CM1        1         
+

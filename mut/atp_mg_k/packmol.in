@@ -1,0 +1,157 @@
+tolerance 3.0
+filetype pdb
+output mixture.pdb
+
+structure /opt/xcg-src/release/templates/solvents/p1/p1p.pdb
+  number 25557
+  inside box -88.164 -87.783 -56.106 88.164 87.783 56.106
+  outside sphere  -12.511  -8.667   2.290 28.0
+  outside sphere   -9.687  -8.958   1.879 28.0
+  outside sphere   -9.968  -6.903  -0.084 28.0
+  outside sphere  -14.268 -10.478   2.924 28.0
+  outside sphere  -13.417  -9.398   3.374 28.0
+  outside sphere  -15.097 -10.982   4.115 28.0
+  outside sphere  -16.160 -10.009   4.453 28.0
+  outside sphere  -15.885 -12.266   3.836 28.0
+  outside sphere  -15.752 -13.188   4.999 28.0
+  outside sphere  -17.371 -11.789   3.837 28.0
+  outside sphere  -18.327 -12.816   4.022 28.0
+  outside sphere  -17.325 -10.684   4.859 28.0
+  outside sphere  -21.283  -9.319   7.867 28.0
+  outside sphere  -12.384  -7.219   2.548 28.0
+  outside sphere   -8.724 -10.125   1.855 28.0
+  outside sphere  -10.480  -6.037   0.974 28.0
+  outside sphere  -20.174 -10.050   8.091 28.0
+  outside sphere  -13.109  -8.632   0.943 28.0
+  outside sphere   -9.118  -7.922   2.800 28.0
+  outside sphere   -8.645  -6.424  -0.633 28.0
+  outside sphere  -19.179 -10.313   7.246 28.0
+  outside sphere  -11.124  -9.472   2.335 28.0
+  outside sphere   -9.928  -8.451   0.423 28.0
+  outside sphere  -11.096  -6.829  -1.004 28.0
+  outside sphere  -19.340  -9.781   6.038 28.0
+  outside sphere  -20.459  -9.080   5.610 28.0
+  outside sphere  -21.440  -8.885   6.579 28.0
+  outside sphere  -22.589  -8.212   6.384 28.0
+  outside sphere  -20.345  -8.657   4.309 28.0
+  outside sphere  -19.177  -9.181   3.904 28.0
+  outside sphere  -18.494  -9.830   4.936 28.0
+  outside sphere  -13.662 -11.312   2.550 28.0
+  outside sphere  -14.929 -10.108   2.130 28.0
+  outside sphere  -14.449 -11.148   4.984 28.0
+  outside sphere  -15.612 -12.740   2.885 28.0
+  outside sphere  -15.829 -14.083   4.627 28.0
+  outside sphere  -17.501 -11.342   2.844 28.0
+  outside sphere  -18.024 -13.607   3.545 28.0
+  outside sphere  -17.215 -11.157   5.841 28.0
+  outside sphere  -20.071 -10.410   9.113 28.0
+  outside sphere  -22.914  -8.181   5.426 28.0
+  outside sphere  -23.277  -8.386   7.106 28.0
+  outside sphere  -18.791  -9.035   2.904 28.0
+  outside sphere  -12.476  -6.830   0.609 28.0
+end structure
+
+structure /opt/xcg-src/release/templates/solvents/p1/p1n.pdb
+  number 25557
+  inside box -88.164 -87.783 -56.106 88.164 87.783 56.106
+  outside sphere  -12.511  -8.667   2.290 28.0
+  outside sphere   -9.687  -8.958   1.879 28.0
+  outside sphere   -9.968  -6.903  -0.084 28.0
+  outside sphere  -14.268 -10.478   2.924 28.0
+  outside sphere  -13.417  -9.398   3.374 28.0
+  outside sphere  -15.097 -10.982   4.115 28.0
+  outside sphere  -16.160 -10.009   4.453 28.0
+  outside sphere  -15.885 -12.266   3.836 28.0
+  outside sphere  -15.752 -13.188   4.999 28.0
+  outside sphere  -17.371 -11.789   3.837 28.0
+  outside sphere  -18.327 -12.816   4.022 28.0
+  outside sphere  -17.325 -10.684   4.859 28.0
+  outside sphere  -21.283  -9.319   7.867 28.0
+  outside sphere  -12.384  -7.219   2.548 28.0
+  outside sphere   -8.724 -10.125   1.855 28.0
+  outside sphere  -10.480  -6.037   0.974 28.0
+  outside sphere  -20.174 -10.050   8.091 28.0
+  outside sphere  -13.109  -8.632   0.943 28.0
+  outside sphere   -9.118  -7.922   2.800 28.0
+  outside sphere   -8.645  -6.424  -0.633 28.0
+  outside sphere  -19.179 -10.313   7.246 28.0
+  outside sphere  -11.124  -9.472   2.335 28.0
+  outside sphere   -9.928  -8.451   0.423 28.0
+  outside sphere  -11.096  -6.829  -1.004 28.0
+  outside sphere  -19.340  -9.781   6.038 28.0
+  outside sphere  -20.459  -9.080   5.610 28.0
+  outside sphere  -21.440  -8.885   6.579 28.0
+  outside sphere  -22.589  -8.212   6.384 28.0
+  outside sphere  -20.345  -8.657   4.309 28.0
+  outside sphere  -19.177  -9.181   3.904 28.0
+  outside sphere  -18.494  -9.830   4.936 28.0
+  outside sphere  -13.662 -11.312   2.550 28.0
+  outside sphere  -14.929 -10.108   2.130 28.0
+  outside sphere  -14.449 -11.148   4.984 28.0
+  outside sphere  -15.612 -12.740   2.885 28.0
+  outside sphere  -15.829 -14.083   4.627 28.0
+  outside sphere  -17.501 -11.342   2.844 28.0
+  outside sphere  -18.024 -13.607   3.545 28.0
+  outside sphere  -17.215 -11.157   5.841 28.0
+  outside sphere  -20.071 -10.410   9.113 28.0
+  outside sphere  -22.914  -8.181   5.426 28.0
+  outside sphere  -23.277  -8.386   7.106 28.0
+  outside sphere  -18.791  -9.035   2.904 28.0
+  outside sphere  -12.476  -6.830   0.609 28.0
+end structure
+
+structure /home/ywzhang/Documents/co-model/mut/top_ligands/Na+.pdb
+  number 63
+  inside box -88.164 -87.783 -56.106 88.164 87.783 56.106
+  outside sphere  -12.511  -8.667   2.290 28.0
+  outside sphere   -9.687  -8.958   1.879 28.0
+  outside sphere   -9.968  -6.903  -0.084 28.0
+  outside sphere  -14.268 -10.478   2.924 28.0
+  outside sphere  -13.417  -9.398   3.374 28.0
+  outside sphere  -15.097 -10.982   4.115 28.0
+  outside sphere  -16.160 -10.009   4.453 28.0
+  outside sphere  -15.885 -12.266   3.836 28.0
+  outside sphere  -15.752 -13.188   4.999 28.0
+  outside sphere  -17.371 -11.789   3.837 28.0
+  outside sphere  -18.327 -12.816   4.022 28.0
+  outside sphere  -17.325 -10.684   4.859 28.0
+  outside sphere  -21.283  -9.319   7.867 28.0
+  outside sphere  -12.384  -7.219   2.548 28.0
+  outside sphere   -8.724 -10.125   1.855 28.0
+  outside sphere  -10.480  -6.037   0.974 28.0
+  outside sphere  -20.174 -10.050   8.091 28.0
+  outside sphere  -13.109  -8.632   0.943 28.0
+  outside sphere   -9.118  -7.922   2.800 28.0
+  outside sphere   -8.645  -6.424  -0.633 28.0
+  outside sphere  -19.179 -10.313   7.246 28.0
+  outside sphere  -11.124  -9.472   2.335 28.0
+  outside sphere   -9.928  -8.451   0.423 28.0
+  outside sphere  -11.096  -6.829  -1.004 28.0
+  outside sphere  -19.340  -9.781   6.038 28.0
+  outside sphere  -20.459  -9.080   5.610 28.0
+  outside sphere  -21.440  -8.885   6.579 28.0
+  outside sphere  -22.589  -8.212   6.384 28.0
+  outside sphere  -20.345  -8.657   4.309 28.0
+  outside sphere  -19.177  -9.181   3.904 28.0
+  outside sphere  -18.494  -9.830   4.936 28.0
+  outside sphere  -13.662 -11.312   2.550 28.0
+  outside sphere  -14.929 -10.108   2.130 28.0
+  outside sphere  -14.449 -11.148   4.984 28.0
+  outside sphere  -15.612 -12.740   2.885 28.0
+  outside sphere  -15.829 -14.083   4.627 28.0
+  outside sphere  -17.501 -11.342   2.844 28.0
+  outside sphere  -18.024 -13.607   3.545 28.0
+  outside sphere  -17.215 -11.157   5.841 28.0
+  outside sphere  -20.071 -10.410   9.113 28.0
+  outside sphere  -22.914  -8.181   5.426 28.0
+  outside sphere  -23.277  -8.386   7.106 28.0
+  outside sphere  -18.791  -9.035   2.904 28.0
+  outside sphere  -12.476  -6.830   0.609 28.0
+end structure
+
+structure prot_watsph_relax_openmm/multiscale.pdb
+  number 1
+  fixed 0. 0. 0. 0. 0. 0.
+  center
+end structure
+
